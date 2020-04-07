@@ -36,7 +36,6 @@ remove_middle([4, 8 , 15, 16, 23, 42], 1, 3)
 def remove_middle(lst,start,end):
   new_lst = []
   i=0
-    
   while i < len(lst):
     while i < start:
       new_lst.append(lst[i])  
