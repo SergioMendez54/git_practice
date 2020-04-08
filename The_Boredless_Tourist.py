@@ -77,3 +77,25 @@ test = ['Dereck Smill', 'Paris, France', ['monument']]
 print(get_attractions_for_traveler(test))
 
 
+
+
+
+
+
+
+class Solution(object):
+    def defangIPaddr(self, address):
+        
+        faddress = ('')
+        for i in address:
+            if i == '.':
+                faddress = faddress + str('[.]')
+            else:
+                faddress = faddress + str(i)
+            
+            
+            
+        #:type address: str
+        #:rtype: str
+        
+        return faddress
